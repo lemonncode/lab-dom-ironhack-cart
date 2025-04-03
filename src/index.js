@@ -118,7 +118,7 @@ function createProduct() {
     const newProductRow = document.createElement('tr');
     newProductRow.classList.add('product');
 
-    // Estructura corregida de la fila
+  
     newProductRow.innerHTML = `
       <td class="name"><span>${productName}</span></td>
       <td class="price">$<span>${productPrice.toFixed(2)}</span></td>
